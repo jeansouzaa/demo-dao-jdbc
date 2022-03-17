@@ -97,6 +97,28 @@ public class Seller implements Serializable
 		return birthDate;
 	}
 
+	
+	
+	public static long getSerialversionuid()
+	{
+	
+		return serialVersionUID;
+	}
+
+	
+	public void setId(Integer id)
+	{
+	
+		this.id = id;
+	}
+
+	
+	public void setBirthDate(Date birthDate)
+	{
+	
+		this.birthDate = birthDate;
+	}
+
 	@Override
 	public int hashCode()
 	{
